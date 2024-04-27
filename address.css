@@ -1,0 +1,35 @@
+.addres {
+    margin-bottom: 30px;
+}
+
+.addres__mail {
+    color: #282626;
+    font-family: HelveticaNeueCyr, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: 30px;
+}
+
+.addres__mail::before {
+    content: url(image/email.svg);
+    margin-right: 14px;
+    vertical-align: top;
+}
+
+.addres__tel {
+    color: #282626;
+    font-family: HelveticaNeueCyr, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: 30px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.addres__tel::before {
+    content: url(image/call.svg);
+    margin-right: 14px;
+    vertical-align: top;
+}

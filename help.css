@@ -1,0 +1,55 @@
+.help__title {
+    font-family: "Comfortaa";
+    font-size: 50px;
+    font-weight: 400;
+    color: #FF8A00;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.help__list {
+    list-style-type: none;
+    counter-reset: list1;
+}
+
+.help__list-text:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.help__list-item {
+    position: relative;
+    padding-left: 40px;
+    max-width: 500px;
+}
+
+.help__list-item:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.help__list-item:before {
+    content: counter(list1);
+    counter-increment: list1;
+    color: #FF8A00;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    position: absolute;
+    left: 0;
+}
+
+.help__list-title {
+    font-weight: 400    ;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+/* .text {
+    margin-right: 16px;
+    margin-bottom: 20px;
+    padding-left: 52px;
+    max-width: 500px;
+} */
+
+.help__list-text-strong {
+    font-weight: 500;
+}

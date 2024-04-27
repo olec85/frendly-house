@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="preload" href="/fonts/Comfortaa-Regular.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="/fonts/HelveticaNeueCyr-Light.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="/fonts/HelveticaNeueCyr-Medium.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="/fonts/HelveticaNeueCyr-Roman.woff2" as="font" type="font/woff2" crossorigin>
+
+        <link rel="stylesheet" href="style.css">
+        <title>Friendly House</title>
+    </head>
+    <body>
+
+        <section class="about">
+            <div class="container about__container">
+                <h2 class="about__title">O приюте </h2>
+                <p class="about__text">Приют "Friendly House" - это целый комплекс для бездомных и брошенных животных.</p>
+                <p class="about__text">В приюте работает сплочённая команда, которая занимается помощью бездомным животным в течении многих лет. Мы заботимся о качестве жизни наших подопечных и осуществляем профессиональный медицинский уход.</p>
+            </div>
+        </section>
+
+        <section class="help">
+            <div class="container">
+                <h2 class="help__title">Как ты можешь нам помочь?</h2>
+                <ol class="help__list">
+                    <li class="help__list-item">
+                        <h3 class="help__list-title">Финансово</h3>
+                        <p class="help__list-text">Мы будем рады любым пожертвованиям. Деньги пойдут на корм, лечение и уход, а также, на обустройство территории, где обитают наши маленькие питомцы.</p>
+                    </li>
+                    <li class="help__list-item">
+                        <h3 class="help__list-title">Стать волонером</h3>
+                        <p class="help__list-text">Наш приют "Friendly House" привлекает волонтеров для оказания помощи в самых разных форматах! От финансовой помощи и набирающего популярность интеллектуального волонтерства до помощи руками.</p>
+                        <p class="help__list-text">Нам всегда нужна помощь с выгулом подопечных, уборкой помещений, привезти в приют корм или медикаменты, помочь с перевозкой животных в клиники, забрать и привезти вещи и много всего другого. Мы всегда рады любой помощи, присоединяйтесь к нашей дружной команде! </p>
+                    </li>
+                    <li class="help__list-item">
+                        <h3 class="help__list-title">Стать опекуном</h3>
+                        <p class="help__list-text help__list-text-strong">Хотите друга, но не можете взять домой? Проект опеки - идеальное решение!</p>
+                        <p class="help__list-text">Взять под опеку животное, у которого еще нет опекуна, - это как завести питомца, о котором всю жизнь мечтал, но не мог себе этого позволить по каким-либо причинам.</p>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <section class="connect">
+            <div class="connect__container">
+                    <h2 class="connect__caption">Ты можешь помочь нам!</h2>
+                    <p class="connect__text">Хочешь забрать питомца, стать волонтером, или опекуном?</p>
+                    <p class="connect__text-orange">Свяжись с нами!</p>
+        
+                    <address class="addres">
+                        <a class="addres__tel" href="tel:+76493003957">8 (849) 300 - 39 -57</a>
+                        <a class="addres__mail" href="mailto:friendlyhouse@gmail.com">FriendlyHouse@gmail.com</a>
+                    </address>
+        
+                    <p class="connect__text">Или оставь свои контакты и мы сами свяжемся с тобой!</p>
+        
+                    <form class="connect__form" action="https://jsonplaceholder.typicode.com/posts" method="post">
+                        <label class="connect__label-text" for="tel">Номер телефона
+                            <input 
+                                class="connect__input" 
+                                type="tel" 
+                                name="tel" 
+                                id="tel">
+                        </label>
+                        <label class="connect__label-text" for="mail">E-mail
+                            <input 
+                                class="connect__input" 
+                                type="email" 
+                                name="mail" 
+                                id="mail">
+                        </label>
+                        <button class="connect__button" type="submit">Отправить</button>
+                    </form>
+            </div>
+            
+        </section>
+    </body>
+</html>
