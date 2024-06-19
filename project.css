@@ -1,0 +1,305 @@
+.project {
+    margin-bottom: 100px;
+}
+
+.project__container {
+    display: grid;
+    grid-template-columns: 7fr 4fr;
+    gap: 0 120px;
+}
+
+.title {
+    margin-bottom: 50px;
+}
+
+.project__container-left-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.project__container-left-list-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 680px;
+}
+
+/* .project__container-left-list-item::before {
+    content: '';
+    background-image: url(image/dog-1.png);
+    background-repeat: no-repeat;
+    width: 280px;
+    height: 180px;
+    position: relative;
+    right: 0;
+} */
+
+.project__container-left-list-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project__container-left-list-title {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 133%;
+    color: #282626;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.project__container-left-list-desc {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 150%;
+    color: #282626;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.project__container-left-list-link {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    color: #FF8A00;
+    display: flex;
+    gap: 15px;
+}
+
+.project__container-left-list-link::after {
+    content: '';
+    display: block;
+    background-image: url(image/arrow-right.svg);
+    background-repeat: no-repeat;
+    width: 29px;
+    height: 29px;
+}
+
+.project__container-right {
+    /* display: flex;
+    flex-direction: column;
+    gap: 52px; */
+    position: relative;
+}
+
+.project__container-right-img {
+    margin-bottom: 52px;
+}
+
+.project__container-right-wrapper {
+    position: relative;
+    top: 0;
+}
+
+.project__container-right-wrapper-desc {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 133%;
+    color: #ffffff;
+    position: absolute;
+    bottom: 90px;
+    left: 10px;
+    width: 360px;
+}
+
+.link {
+    position: absolute;
+    bottom: 92px;
+    right: 10px;
+}
+
+.project__container-right-desc {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    color: #282626;
+    margin-bottom: 22px;
+}
+
+.project__container-right-more-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.visible-link {
+    display: none;
+}
+
+@media (max-width: 1240px) {
+    .project__container {
+        display: grid;
+        grid-template-columns: 6fr 3fr;
+        gap: 20px;
+    }
+    
+    .title {
+        font-size: 44px;
+        margin-bottom: 40px;
+    }
+
+    
+    .project__container-left-list-item {
+        width: 580px;
+    }
+    
+    /* .project__container-left-list-item::before {
+        content: '';
+        background-image: url(image/dog-1.png);
+        background-repeat: no-repeat;
+        width: 280px;
+        height: 180px;
+        position: relative;
+        right: 0;
+    } */
+    .project__container-left-list-img {
+        width: 200px;
+    }
+    
+    .project__container-left-list-title {
+        font-size: 24px;
+        margin-bottom: 7px;
+    }
+    
+    .project__container-left-list-desc {
+        font-size: 18px;
+        margin-bottom: 11px;
+    }
+    
+    .project__container-left-list-link {
+        font-size: 18px;
+        gap: 9px;
+    }
+    
+    .project__container-right {
+        /* display: flex;
+        flex-direction: column;
+        gap: 52px; */
+        position: relative;
+    }
+    
+    .project__container-right-img {
+        margin-bottom: 33px;
+        width: 280px;
+    }
+    
+    .project__container-right-wrapper {
+        position: relative;
+        top: 0;
+    }
+    
+    .project__container-right-wrapper-desc {
+        font-size: 24px;
+        width: 200px;
+    }
+    
+    .link {
+        bottom: 45px;
+    }
+
+    .visible {
+        display: none;
+    }
+
+    .visible-link {
+        display: block;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 130%;
+        color: #FF8A00;
+        display: flex;
+        gap: 15px;
+        position: relative;
+        left: 110px;
+        top: 10px;
+    }
+
+    .visible-link::after {
+        content: '';
+        display: block;
+        background-image: url(image/arrow-right.svg);
+        background-repeat: no-repeat;
+        width: 29px;
+        height: 29px;
+    }
+    
+    .project__container-right-desc {
+        font-size: 18px;
+        margin-bottom: 7px;
+    }
+    
+    .project__container-right-more-grid {
+        width: 280px;
+    }
+}
+
+
+@media (max-width: 800px) {
+
+    .project__container {
+        grid-template-columns: 5fr 3fr;
+    }
+    
+    .title {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .project__container-left-list {
+        gap: 20px;
+    }
+
+    .project__container-left-list-item {
+        width: 400px;
+    }
+    
+    .project__container-left-list-img {
+        width: 160px;
+    }
+    
+    .project__container-left-list-title {
+        font-size: 18px;
+        margin-bottom: 3px;
+    }
+    
+    .project__container-left-list-desc {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    
+    .project__container-left-list-link {
+        font-size: 14px;
+        gap: 10px;
+    }
+    
+    .project__container-right-img {
+        margin-bottom: 20px;
+        width: 220px;
+    }
+    
+    .project__container-right-wrapper-desc {
+        font-size: 18px;
+        bottom: 75px;
+        width: 200px;
+    }
+    
+    .link {
+        bottom: 45px;
+    }
+
+    .visible {
+        display: none;
+    }
+
+    
+    .project__container-right-desc {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    
+    .project__container-right-more-grid {
+        width: 220px;
+    }
+}

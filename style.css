@@ -52,8 +52,19 @@ body {
     color: #282626;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 
-h1, h2, h3, p, li, ol {
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h2, h3,
+h4, p, li, ol {
     margin: 0;
     padding: 0;
 }
@@ -65,14 +76,39 @@ button {
     background-color: transparent;
 }
 
+/* img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
+
 input {
     margin: 0;
 }
 
 .container {
-    max-width: 900px;
+    max-width: 1240px;
     margin: 0 auto;
-    padding: 40px 30px 50px;
+    padding: 0 30px;
+}
+
+@media (max-width: 1240px) {
+    .container {
+        max-width: 880px;
+    }
+}
+
+@media (max-width: 800px) {
+    .container {
+        max-width: 700px;
+    }
+}
+
+@media (max-width: 450px) {
+    .container {
+        max-width: 270px;
+    }
 }
 
 
