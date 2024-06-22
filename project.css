@@ -137,7 +137,7 @@
     display: block;
 }
 
-@media (max-width: 1240px) {
+@media (max-width: 1050px) {
     .project__container {
         grid-template-columns: repeat(9, 1fr);
         /* gap: 20px; */
