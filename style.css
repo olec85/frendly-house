@@ -105,21 +105,21 @@ figcaption {
 
 @media (max-width: 1240px) {
     .container {
-        max-width: 880px;
+        max-width: 920px;
         padding: 0 20px;
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 940px) {
     .container {
-        max-width: 700px;
-        padding: 0 15px;
+        max-width: 730px;
+        padding: 0 15px;/* тут поменял с 800px*/
     }
 }
 
 @media (max-width: 450px) {
     .container {
-        max-width: 270px;
+        max-width: 290px;
         padding: 0 10px;
     }
 }
