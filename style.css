@@ -93,6 +93,10 @@ input {
     padding: 0 30px;
 }
 
+img {
+    object-fit: cover;
+}
+
 figure {
     margin: 0;
     padding: 0;
