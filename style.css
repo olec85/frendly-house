@@ -1,8 +1,8 @@
-@import url(normalize.css);
+/* @import url(normalize.css);
 @import url(about.css);
 @import url(help.css);
 @import url(connect.css);
-@import url(address.css);
+@import url(address.css); */
 
 
 @font-face {
@@ -28,14 +28,14 @@
     font-weight: 500;
     font-display: auto;
 }
-
+/* 
 @font-face {
     font-family: "Comfortaa";
     src: local("Comfortaa"), url(../fonts//Comfortaa-Regular.woff2) format("woff2"),
         url(../fonts/Comfortaa-Regular.woff) format("woff");
     font-weight: 400;
     font-display: auto;
-}
+} */
 
 html {
     box-sizing: border-box;
