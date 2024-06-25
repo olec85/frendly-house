@@ -403,29 +403,38 @@
     }
 
     .project__container-left-list {
-        grid-template-columns: repeat(4, 1fr);
+        /* grid-template-columns: repeat(4, 1fr); */
+        width: 270px;
         grid-template-rows: repeat(4, 134px);
         gap: 20px;
     }
 
+    .project__container-left-list-desc {
+        width: auto;
+    }
+
     
     .project__container-left-list-item1 {
-        grid-column: 1 / 4;
+        /* grid-column: 1 / 4; */
+        /* width: 270px; */
         grid-row: 1 / 2;
     }
 
     .project__container-left-list-item2 {
-        grid-column: 1 / 4;
+        /* grid-column: 1 / 4; */
+        /* width: 270px; */
         grid-row: 2 / 3;
     }
 
     .project__container-left-list-item3 {
-        grid-column: 1 / 4;
+        /* grid-column: 1 / 4; */
+        /* width: 270px; */
         grid-row: 3 / 4;
     }
 
     .project__container-left-list-item4 {
-        grid-column: 1 / 4;
+        /* grid-column: 1 / 4; */
+        /* width: 270px; */
         grid-row: 4 / 5;
     }
 
