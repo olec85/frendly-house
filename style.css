@@ -7,35 +7,35 @@
 
 @font-face {
     font-family: "Helvetica Neue Cyr";
-    src: local("HelveticaNeueCyr-Light"), url(../fonts/HelveticaNeueCyr-Light.woff2) format("woff2"),
-        url(../fonts/HelveticaNeueCyr-Light.woff) format("woff");
+    src: local("HelveticaNeueCyr-Light"), url(fonts/HelveticaNeueCyr-Light.woff2) format("woff2"),
+        url(fonts/HelveticaNeueCyr-Light.woff) format("woff");
     font-weight: 300;
     font-display: auto;
 }
 
 @font-face {
     font-family: "Helvetica Neue Cyr";
-    src: local("HelveticaNeueCyr-Roman"), url(../fonts//HelveticaNeueCyr-Roman.woff2) format("woff2"),
-        url(../fonts/HelveticaNeueCyr-Roman.woff) format("woff");
+    src: local("HelveticaNeueCyr-Roman"), url(fonts//HelveticaNeueCyr-Roman.woff2) format("woff2"),
+        url(fonts/HelveticaNeueCyr-Roman.woff) format("woff");
     font-weight: 400;
     font-display: auto;
 }
 
 @font-face {
     font-family: "Helvetica Neue Cyr";
-    src: local("HelveticaNeueCyr-Medium"), url(../fonts//HelveticaNeueCyr-Medium.woff2) format("woff2"),
-        url(../fonts/HelveticaNeueCyr-Medium.woff) format("woff");
+    src: local("HelveticaNeueCyr-Medium"), url(fonts//HelveticaNeueCyr-Medium.woff2) format("woff2"),
+        url(fonts/HelveticaNeueCyr-Medium.woff) format("woff");
     font-weight: 500;
     font-display: auto;
 }
-/* 
+
 @font-face {
     font-family: "Comfortaa";
-    src: local("Comfortaa"), url(../fonts//Comfortaa-Regular.woff2) format("woff2"),
-        url(../fonts/Comfortaa-Regular.woff) format("woff");
+    src: local("Comfortaa"), url(fonts/Comfortaa-Regular.woff2) format("woff2"),
+        url(fonts/Comfortaa-Regular.woff) format("woff");
     font-weight: 400;
     font-display: auto;
-} */
+}
 
 html {
     box-sizing: border-box;
